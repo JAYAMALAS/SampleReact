@@ -1,0 +1,30 @@
+@charset "UTF-8";
+.aboutDiv {
+  padding: 50px 0px;
+}
+.aboutDiv .aboutPage .aboutHeader {
+  text-align: center;
+  color: rgb(57, 71, 137);
+}
+
+#accordionServices .accordion-item {
+  border: none;
+}
+#accordionServices .accordion-button {
+  background-color: rgb(57, 71, 137);
+  color: white;
+  box-shadow: none;
+}
+#accordionServices .accordion-button.collapsed {
+  background-color: white;
+  color: rgb(57, 71, 137);
+}
+#accordionServices .accordion-button.collapsed::after {
+  background-image: none;
+  transform: none;
+}
+#accordionServices .accordion-button:not(.collapsed)::after {
+  content: "→";
+  transform: none;
+  background-image: none;
+}/*# sourceMappingURL=AboutUs.css.map */

@@ -1,0 +1,35 @@
+.firstHeader {
+  background-color: rgb(57, 71, 137);
+}
+.firstHeader .numberLink {
+  color: white;
+  padding: 10px 10px;
+  display: block;
+}
+.firstHeader .enquiry {
+  background-color: #1a56a9;
+}
+
+.secondHeader {
+  padding: 25px 0px;
+}
+.secondHeader ul {
+  margin-bottom: 5px;
+}
+.secondHeader .link a {
+  color: #244d54;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+}
+.secondHeader .homeLink {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 10px;
+}
+.secondHeader .homeLink a {
+  font-weight: 500;
+  color: black;
+}
+.secondHeader .searchMenu input {
+  border: 0.5px outset;
+}/*# sourceMappingURL=Header.css.map */

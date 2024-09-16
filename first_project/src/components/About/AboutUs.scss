@@ -1,0 +1,38 @@
+@import "../../variable";
+
+.aboutDiv {
+  padding: 50px 0px;
+  .aboutPage {
+    .aboutHeader {
+      text-align: center;
+      color: rgb(57, 71, 137);
+    }
+  }
+}
+
+#accordionServices {
+    .accordion-item{
+        border: none;
+    }
+  .accordion-button {
+    background-color: $navy-blue;
+    color: white;
+    box-shadow:none;
+  }
+  .accordion-button.collapsed {
+    background-color: white;
+    color:$navy-blue;
+  }
+  .accordion-button.collapsed::after
+  {
+    background-image: none;
+    transform: none;  
+  }
+  .accordion-button:not(.collapsed)::after{
+    content: "\2192"; 
+    transform: none;
+    background-image: none;
+  }
+
+}
+

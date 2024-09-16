@@ -1,0 +1,44 @@
+.footerPage {
+  padding: 50px 0px;
+  background-color: black;
+}
+.footerPage hr {
+  color: grey;
+}
+.footerPage .footerPagediv {
+  text-align: center;
+}
+.footerPage .footerPagediv .footerPagepara {
+  color: white;
+  font-size: x-large;
+  font-weight: 500;
+}
+.footerPage .footerDiv .footerDivlink {
+  display: block;
+  text-align: center;
+  border: 1px solid rgb(57, 71, 137);
+  padding: 10px 10px;
+  background-color: rgb(57, 71, 137);
+  color: white;
+}
+.footerPage .footerMid .footerMidlink {
+  display: block;
+  color: white;
+}
+.footerPage .footerMid .footerMidhead {
+  color: white;
+}
+.footerPage .footerMid .footerMidpara {
+  color: white;
+  font-size: small;
+}
+.footerPage .footerMid .footerMidpara .footerMidspan {
+  display: block;
+  color: rgb(62, 94, 135);
+}
+.footerPage .footerMid .footerList {
+  list-style: none;
+}
+.footerPage .footerMid .footerList .footerLink {
+  color: white;
+}/*# sourceMappingURL=Footer.css.map */

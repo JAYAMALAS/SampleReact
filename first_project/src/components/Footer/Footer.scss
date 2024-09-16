@@ -1,0 +1,59 @@
+@import "../../variable";
+.footerPage {
+  padding: 50px 0px;
+  background-color: black;
+  hr{
+    color: grey;
+  }
+  .footerPagediv {
+    text-align: center;
+    .footerPagepara {
+      color: white;
+      font-size: x-large;
+      font-weight: 500;
+    }
+  }
+
+  .footerDiv {
+    .footerDivlink {
+      display: block;
+      text-align: center;
+      border: 1px solid $navy-blue;
+      padding: 10px 10px;
+      background-color: $navy-blue;
+      color: white;
+    }
+  }
+  
+  .footerMid
+  {
+    .footerMidlink
+    {
+    display:block;
+    color: white;
+    }
+    .footerMidhead
+    {
+        color:white;
+      
+    }
+    .footerMidpara
+    {
+        color: white;
+         font-size: small;
+         .footerMidspan
+         {
+            display: block;
+            color:rgb(62, 94, 135);
+         }
+    }
+    .footerList
+    {
+        list-style: none;
+        .footerLink
+        {
+            color: white;
+        }
+    }
+  }
+}

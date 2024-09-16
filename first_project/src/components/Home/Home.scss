@@ -1,0 +1,258 @@
+@import "../../variable";
+.midPage {
+  background-image: linear-gradient(
+    to right,
+    rgb(243, 244, 248),
+    rgb(197, 206, 219),
+    rgb(190, 199, 216)
+  );
+  .midPageheading {
+    padding: 80px 10px;
+    h1 {
+      color: $navy-blue;
+    }
+    .buttonBox {
+      padding: 8px 30px;
+      border: 2px solid $navy-blue;
+      color: $navy-blue;
+      font-size: small;
+      border-radius: 5px;
+    }
+
+    .buttonBox:hover {
+      transition: 0.8s;
+      background-color: $navy-blue;
+      color: white;
+    }
+  }
+}
+
+.secondMid {
+  margin-top: 30px;
+  .secondMidHeading {
+    text-align: center;
+    color: $navy-blue;
+  }
+  .secondMidButtons {
+    margin-top: 30px;
+
+    .secondMidButton {
+      padding: 15px 20px;
+      font-weight: 500;
+      font-size: 95%;
+      background-color: white;
+      display: block;
+      color: #26437b;
+      border: 1px solid rgb(242, 242, 242);
+      width: 100%;
+      text-align: left;
+    }
+    .secondMidButton:hover {
+      background-color: $navy-blue;
+      color: white;
+    } 
+    .secondMidButton:hover::after {
+      float: right;
+      padding-right: 10px;
+      content: "\2192";
+    }
+    
+  .secondMidsection {
+    width: 40%;
+    transform: translate(70%, 0%);
+    .secondMidPara {
+      padding: 10px 10px;
+      margin-top: 40px;
+      border: 1px solid rgb(242, 242, 242);
+
+      .secondMidlinks {
+        display: block;
+        color: $navy-blue;
+      }
+      .secondMidlink {
+        color: black;
+        font-size: small;
+      }
+    }
+  }
+}
+
+ /* #accordionServices {
+    .accordion-item{
+        border: none;
+    }
+  .accordion-button {
+    background-color: $navy-blue;
+    color: white;
+    box-shadow:none;
+  }
+  .accordion-button.collapsed {
+    background-color: white;
+    color:$navy-blue;
+  }
+  .accordion-button.collapsed::after
+  {
+    background-image: none;
+    transform: none;  
+  }
+  .accordion-button:not(.collapsed)::after{
+    content: "\2192"; 
+    transform: none;
+    background-image: none;
+  }
+
+}*/
+
+
+}
+
+.thirdMid {
+  background-color: rgb(242, 242, 242);
+  margin-top: 30px;
+  .thirdMiddivision {
+    padding: 80px 0px;
+    .thirdMidheading {
+      color: $navy-blue;
+    }
+    .thirdMidbutton {
+      margin: 30px 20px;
+      padding: 5px 0px;
+      width: 60%;
+      display: block;
+      color: $navy-blue;
+      border: 1px solid rgb(198, 198, 198);
+    }
+    .thirdMidbutton:hover {
+      color: white;
+      background-color: $navy-blue;
+    }
+  }
+}
+
+.fourthMid {
+  padding: 70px 20px;
+  background-color: $navy-blue;
+  .fourthMidparas {
+    color: white;
+    font-size: 28px;
+    text-align: right;
+    b {
+      display: block;
+    }
+  }
+  .fourthMidpara {
+    padding-left: 60px;
+    .fourthParadiv {
+      .fourthPara {
+        color: white;
+        font-size: x-large;
+        font-weight: 500;
+      }
+      .fourthPara1 {
+        font-size: small;
+        color: white;
+      }
+    }
+  }
+  .fourthParaLinks {
+    padding-top: 15px;
+    .fourthParaLink {
+      color: rgb(84, 111, 156);
+      font-size: small;
+    }
+    .fourthLink {
+      color: white;
+      font-size: small;
+    }
+  }
+}
+
+.fifthMid {
+  .fifthMidheading {
+    margin-top: 80px;
+    text-align: center;
+    .fifthHeading {
+      color: rgb(57, 71, 137);
+      font-weight: 500;
+    }
+    .fifthMidpara {
+      color: black;
+      font-size: medium;
+    }
+  }
+  .fifthMidimage {
+    padding-top: 60px;
+    .fifthMidimagepara {
+      padding-top: 30px;
+      color: rgb(57, 71, 137);
+      font-weight: 500;
+      margin-bottom: 0%;
+    }
+    .fifthMidimagepara1 {
+      font-size: small;
+      color: rgb(210, 210, 210);
+    }
+  }
+}
+
+.sixthMid {
+  padding: 60px 0px;
+  .sixthMiddiv {
+    .sixthHeading {
+      color: rgb(57, 71, 137);
+      text-align: center;
+    }
+  }
+  .sixthMiddiv1 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    .sixthMidpara {
+      position: relative;
+      color: rgb(132, 132, 132);
+      border: 1px solid rgb(235, 229, 229);
+      // width: 75%;
+      padding: 30px 20px;
+      &:after{
+        border:1px solid rgb(235, 229, 229);;
+        border-top: 0px;
+        border-right: 0px;
+        width:20px;
+        height: 20px;
+        display: block;
+        transform: rotate(-45deg);
+        position: absolute;
+        bottom: -10px;
+        left:25%;
+        background-color: #fff;
+        content:"";
+      }
+    }
+
+    .sixthMidparags {
+      padding-left: 30px;
+      font-weight: 400;
+      display: inline-block;
+      .sixthMidspan {
+        display: block;
+        color: rgb(132, 132, 132);
+      }
+    }
+  }
+}
+
+.seventhMid {
+  .seventhMiddiv {
+    padding: 80px 0px;
+
+    .seventhHeading {
+      color: rgb(57, 71, 137);
+      b {
+        display: block;
+      }
+    }
+  }
+  .seventhMidimage {
+    padding-bottom: 90px;
+  }
+}

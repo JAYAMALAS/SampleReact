@@ -1,0 +1,53 @@
+@import "../../variable";
+.firstHeader{
+    
+    background-color:$navy-blue;
+    .numberLink 
+    {
+        color:white;
+        padding:10px 10px;
+        display:block;  
+    }
+    .enquiry
+    {   
+        background-color: #1a56a9;  
+    } 
+ }
+
+
+.secondHeader 
+{
+    padding: 25px 0px;
+    ul{
+        margin-bottom: 5px;
+       }
+   .link{
+    a{
+        color:#244d54;
+        font-family:'Times New Roman', Times, serif;
+        font-size: large;
+       }
+   }
+    .homeLink{
+        list-style: none;
+        display: inline-block;
+        margin:0px 10px;
+        a{
+            font-weight:500;
+            color: black;
+        }   
+    }
+   .searchMenu
+   {
+    input{
+        border:0.5px outset;
+    }
+   }
+}
+
+
+
+
+ 
+
+

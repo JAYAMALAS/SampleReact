@@ -1,0 +1,235 @@
+@charset "UTF-8";
+.midPage {
+  background-image: linear-gradient(to right, rgb(243, 244, 248), rgb(197, 206, 219), rgb(190, 199, 216));
+}
+.midPage .midPageheading {
+  padding: 80px 10px;
+}
+.midPage .midPageheading h1 {
+  color: rgb(57, 71, 137);
+}
+.midPage .midPageheading .buttonBox {
+  padding: 8px 30px;
+  border: 2px solid rgb(57, 71, 137);
+  color: rgb(57, 71, 137);
+  font-size: small;
+  border-radius: 5px;
+}
+.midPage .midPageheading .buttonBox:hover {
+  transition: 0.8s;
+  background-color: rgb(57, 71, 137);
+  color: white;
+}
+
+.secondMid {
+  margin-top: 30px;
+  /* #accordionServices {
+      .accordion-item{
+          border: none;
+      }
+    .accordion-button {
+      background-color: $navy-blue;
+      color: white;
+      box-shadow:none;
+    }
+    .accordion-button.collapsed {
+      background-color: white;
+      color:$navy-blue;
+    }
+    .accordion-button.collapsed::after
+    {
+      background-image: none;
+      transform: none;  
+    }
+    .accordion-button:not(.collapsed)::after{
+      content: "\2192"; 
+      transform: none;
+      background-image: none;
+    }
+
+  }*/
+}
+.secondMid .secondMidHeading {
+  text-align: center;
+  color: rgb(57, 71, 137);
+}
+.secondMid .secondMidButtons {
+  margin-top: 30px;
+}
+.secondMid .secondMidButtons .secondMidButton {
+  padding: 15px 20px;
+  font-weight: 500;
+  font-size: 95%;
+  background-color: white;
+  display: block;
+  color: #26437b;
+  border: 1px solid rgb(242, 242, 242);
+  width: 100%;
+  text-align: left;
+}
+.secondMid .secondMidButtons .secondMidButton:hover {
+  background-color: rgb(57, 71, 137);
+  color: white;
+}
+.secondMid .secondMidButtons .secondMidButton:hover::after {
+  float: right;
+  padding-right: 10px;
+  content: "→";
+}
+.secondMid .secondMidButtons .secondMidsection {
+  width: 40%;
+  transform: translate(70%, 0%);
+}
+.secondMid .secondMidButtons .secondMidsection .secondMidPara {
+  padding: 10px 10px;
+  margin-top: 40px;
+  border: 1px solid rgb(242, 242, 242);
+}
+.secondMid .secondMidButtons .secondMidsection .secondMidPara .secondMidlinks {
+  display: block;
+  color: rgb(57, 71, 137);
+}
+.secondMid .secondMidButtons .secondMidsection .secondMidPara .secondMidlink {
+  color: black;
+  font-size: small;
+}
+
+.thirdMid {
+  background-color: rgb(242, 242, 242);
+  margin-top: 30px;
+}
+.thirdMid .thirdMiddivision {
+  padding: 80px 0px;
+}
+.thirdMid .thirdMiddivision .thirdMidheading {
+  color: rgb(57, 71, 137);
+}
+.thirdMid .thirdMiddivision .thirdMidbutton {
+  margin: 30px 20px;
+  padding: 5px 0px;
+  width: 60%;
+  display: block;
+  color: rgb(57, 71, 137);
+  border: 1px solid rgb(198, 198, 198);
+}
+.thirdMid .thirdMiddivision .thirdMidbutton:hover {
+  color: white;
+  background-color: rgb(57, 71, 137);
+}
+
+.fourthMid {
+  padding: 70px 20px;
+  background-color: rgb(57, 71, 137);
+}
+.fourthMid .fourthMidparas {
+  color: white;
+  font-size: 28px;
+  text-align: right;
+}
+.fourthMid .fourthMidparas b {
+  display: block;
+}
+.fourthMid .fourthMidpara {
+  padding-left: 60px;
+}
+.fourthMid .fourthMidpara .fourthParadiv .fourthPara {
+  color: white;
+  font-size: x-large;
+  font-weight: 500;
+}
+.fourthMid .fourthMidpara .fourthParadiv .fourthPara1 {
+  font-size: small;
+  color: white;
+}
+.fourthMid .fourthParaLinks {
+  padding-top: 15px;
+}
+.fourthMid .fourthParaLinks .fourthParaLink {
+  color: rgb(84, 111, 156);
+  font-size: small;
+}
+.fourthMid .fourthParaLinks .fourthLink {
+  color: white;
+  font-size: small;
+}
+
+.fifthMid .fifthMidheading {
+  margin-top: 80px;
+  text-align: center;
+}
+.fifthMid .fifthMidheading .fifthHeading {
+  color: rgb(57, 71, 137);
+  font-weight: 500;
+}
+.fifthMid .fifthMidheading .fifthMidpara {
+  color: black;
+  font-size: medium;
+}
+.fifthMid .fifthMidimage {
+  padding-top: 60px;
+}
+.fifthMid .fifthMidimage .fifthMidimagepara {
+  padding-top: 30px;
+  color: rgb(57, 71, 137);
+  font-weight: 500;
+  margin-bottom: 0%;
+}
+.fifthMid .fifthMidimage .fifthMidimagepara1 {
+  font-size: small;
+  color: rgb(210, 210, 210);
+}
+
+.sixthMid {
+  padding: 60px 0px;
+}
+.sixthMid .sixthMiddiv .sixthHeading {
+  color: rgb(57, 71, 137);
+  text-align: center;
+}
+.sixthMid .sixthMiddiv1 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+}
+.sixthMid .sixthMiddiv1 .sixthMidpara {
+  position: relative;
+  color: rgb(132, 132, 132);
+  border: 1px solid rgb(235, 229, 229);
+  padding: 30px 20px;
+}
+.sixthMid .sixthMiddiv1 .sixthMidpara:after {
+  border: 1px solid rgb(235, 229, 229);
+  border-top: 0px;
+  border-right: 0px;
+  width: 20px;
+  height: 20px;
+  display: block;
+  transform: rotate(-45deg);
+  position: absolute;
+  bottom: -10px;
+  left: 25%;
+  background-color: #fff;
+  content: "";
+}
+.sixthMid .sixthMiddiv1 .sixthMidparags {
+  padding-left: 30px;
+  font-weight: 400;
+  display: inline-block;
+}
+.sixthMid .sixthMiddiv1 .sixthMidparags .sixthMidspan {
+  display: block;
+  color: rgb(132, 132, 132);
+}
+
+.seventhMid .seventhMiddiv {
+  padding: 80px 0px;
+}
+.seventhMid .seventhMiddiv .seventhHeading {
+  color: rgb(57, 71, 137);
+}
+.seventhMid .seventhMiddiv .seventhHeading b {
+  display: block;
+}
+.seventhMid .seventhMidimage {
+  padding-bottom: 90px;
+}/*# sourceMappingURL=Home.css.map */
